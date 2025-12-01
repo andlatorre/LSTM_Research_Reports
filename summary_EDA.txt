@@ -1,0 +1,43 @@
+================================================================================
+SUMMARY - EXPLORATORY DATA ANALYST
+STATION: Hyd_35117010
+================================================================================
+
+Analysis period: 2000-04-01 a 2015-12-31
+Number of records: 5753
+Duration: 5752 days
+
+VARIABLES ANALYZED:
+  - Precipitation (mm)
+  - Minimum temperature (°C)
+  - Maximum temperature (°C)
+  - Flow (m³/s)
+
+DESCRIPTIVE STATISTICS:
+         Precip_mm   Temp_min_C   Temp_max_C     Flow_m3s
+count  5753.000000  5753.000000  5753.000000  5753.000000
+mean      7.411452    18.169624    25.555017  1576.045229
+std      10.697045     0.866680     1.697429  1038.279365
+min       0.000000    13.236000    19.687000   117.000000
+25%       0.110000    17.631000    24.403000   576.800000
+50%       2.456000    18.207000    25.608000  1502.000000
+75%      10.883000    18.768000    26.703000  2339.000000
+max      90.870000    21.416000    31.552000  4697.000000
+
+MAIN FINDINGS:
+  - Average daily precipitation: 7.41 mm
+  - Total precipitation for the period: 42638.08 mm
+  - Average flow: 1576.05 m³/s
+  - Maximum recorded flow: 4697.00 m³/s
+  - Average temperature range: 7.39 °C
+
+FILES GENERATED:
+  - fig1_temporal_series.png
+  - fig2_distributions.png
+  - fig3_boxplots.png
+  - fig4_correlation.png
+  - fig5_annual_cycle.png
+  - fig6_scatter_plots.png
+  - fig7_annual_trend.png
+  - fig8_seasonality.png
+  - summary_EDA.txt
